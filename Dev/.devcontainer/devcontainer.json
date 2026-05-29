@@ -1,0 +1,14 @@
+{
+  "name": "Python 3 Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:3",
+  
+  // Customizes the VS Code settings and extensions inside the Codespace
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",       // Pre-installs the official Python extension
+        "ms-python.vscode-pylance" // Pre-installs fast type-checking and IntelliSense
+      ]
+    }
+  }
+}
